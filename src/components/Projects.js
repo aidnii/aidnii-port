@@ -42,8 +42,9 @@ export const Projects = () => {
                             </div>
                             <h4>NFT Minting Website (RoboPunksNFT)</h4>
                             <div className="portfolio__item-cta">
-                              <a href="https://github.com/aidnii/nft-mint-website" className='btn' target='_blank'>Github</a>
-                              <a href="https://github.com/aidnii" className='btn btn-primary' target='_blank'>Demo</a>
+                              <a href="https://github.com/aidnii/minting-nft-site" className='btn' target='_blank'>Github</a>
+                              <a href="https://rinkeby.etherscan.io/address/0xe525375dA0A2d1d7767cd0FE642fFf4525d80dE4" className='btn btn-primary' target='_blank'>Deployed Contract</a>
+                              <a href="https://nftmint-krypticlady.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
                             </div>
                           </article>
                           <article className="portfolio__item">
