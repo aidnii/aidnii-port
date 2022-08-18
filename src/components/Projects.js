@@ -79,23 +79,23 @@ export const Projects = () => {
                             <div className="portfolio__item-image">
                               
                             </div>
-                            <h4>Contract</h4>
+                            <h4>SimpleMint.sol (ERC721)</h4>
                             <div className="portfolio__item-cta">
-                              <a href="https://github.com/aidnii/nft-mint-website" className='btn'>Github</a>
-                              <a href="https://github.com/aidnii" className='btn btn-primary'>Contract</a>
+                              <a href="https://github.com/aidnii/ERC721" className='btn'>Github</a>
+                              <a href="https://rinkeby.etherscan.io/address/0x909e12d707a389A2A960eE3b2be8241b2C348619#code" className='btn btn-primary'>Contract</a>
                             </div>
                           </article>
                           <article className="portfolio__item">
                           <div className="portfolio__item-image">
                             
                           </div>
-                          <h4>Contract</h4>
+                          <h4>Standard ERC720</h4>
                           <div className="portfolio__item-cta">
-                            <a href="https://github.com/aidnii/my-wave-portal" className='btn'>Github</a>
-                            <a href="https://github.com/aidnii" className='btn btn-primary'>Contract</a>
+                            <a href="https://github.com/aidnii/ERC20" className='btn'>Github</a>
+                            {/* <a href="https://github.com/aidnii" className='btn btn-primary'>Contract</a> */}
                           </div>
                         </article>
-                        <article className="portfolio__item">
+                        {/* <article className="portfolio__item">
                           <div className="portfolio__item-image">
                             
                           </div>
@@ -104,7 +104,7 @@ export const Projects = () => {
                             <a href="https://github.com" className='btn'>Github</a>
                             <a href="https://github.com/aidnii" className='btn btn-primary'>Contract</a>
                           </div>
-                        </article>
+                        </article> */}
                         </div>
                       </Row>
                     </Tab.Pane>
