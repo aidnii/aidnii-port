@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+//import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from "../assets/img/header-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { isVisible } from "@testing-library/user-event/dist/utils";
+//import { isVisible } from "@testing-library/user-event/dist/utils";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -14,14 +14,9 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
 
-  useEffect(() => {
-        let ticker = setInterval(() => {
-            tick();
-        },delta)
-        
-        return () => { clearInterval(ticker)};
-    }, [text])
+  
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const tick = () => {
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
@@ -43,6 +38,14 @@ export const Banner = () => {
         }
     }
 
+    useEffect(() => {
+      let ticker = setInterval(() => {
+          tick();
+      },delta)
+      
+      return () => { clearInterval(ticker)};
+  }, [delta, text, tick])
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -50,7 +53,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
                 <TrackVisibility>
                 {({ isVisible }) => 
-                  <div className={isVisible ? "animated__animated animate_fadeIn" : ""}>
+                  <div className={ isVisible ? "animated__animated animate_fadeIn" : ""}>
                     <span className="tagline">welcome to my portfolio</span>
                     <h2>{`hey! i'm kryptic lady `}</h2>
                     <h1><span className="wrap">{text}</span></h1>

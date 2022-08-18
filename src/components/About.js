@@ -8,7 +8,7 @@ export const About = () => {
             <h2>about me</h2>
             <div className="container">
                 <div className="about-img">
-                    <img src={headerImgR}></img>
+                    <img src={headerImgR} alt=""></img>
                 </div>
                 <div className="text-wrapper">
                     <h4>I'm kryptic lady (she/her)</h4>
@@ -17,7 +17,7 @@ export const About = () => {
                         My background is in Mechanical Engineering with over 5 years of experience. However, I decided to go full-time into Blockchain and 
                         Crypto back in 2019. I'm also a Crypto enthusiast! 
                     </p>
-                    <a href="https://calendly.com/krypticlady/30min" className='btn' target='_blank'>let's collab!</a>
+                    <a href="https://calendly.com/krypticlady/30min" className='btn' >let's collab!</a>
                 </div>
             </div>
         </section>
