@@ -58,7 +58,7 @@ export const Banner = () => {
                     <h2>{`hey! i'm kryptic lady `}</h2>
                     <h1><span className="wrap">{text}</span></h1>
                     <p>A self-taught Blockchain Developer that's been exploring this space for the last year!</p>
-                    <a href="https://drive.google.com/file/d/1Hq7ATQhLXDxtbDujQnWVjMKNSHtOV6xn/view?usp=sharing" className="btn">download CV</a>
+                    <a href="https://drive.google.com/file/d/1fya00Sb61xpY393cUS2SCI8UxQRzd4iq/view?usp=sharing" className="btn">download CV</a>
                     
                     {/* <button src={IHResume} className="btn-cv">Download CV </button> */}
                   </div>}
