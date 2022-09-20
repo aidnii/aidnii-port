@@ -86,14 +86,24 @@ export const Projects = () => {
                             </div>
                           </article>
                           <article className="portfolio__item">
-                          <div className="portfolio__item-image">
-                            
-                          </div>
-                          <h4>Standard ERC720</h4>
-                          <div className="portfolio__item-cta">
-                            <a href="https://github.com/aidnii/ERC20" className='btn'>Github</a>
-                            {/* <a href="https://github.com/aidnii" className='btn btn-primary'>Contract</a> */}
-                          </div>
+                            <div className="portfolio__item-image">
+                              
+                            </div>
+                            <h4>Standard ERC720</h4>
+                            <div className="portfolio__item-cta">
+                              <a href="https://github.com/aidnii/ERC20" className='btn'>Github</a>
+                              {/* <a href="https://github.com/aidnii" className='btn btn-primary'>Contract</a> */}
+                            </div>
+                        </article>
+                        <article className="portfolio__item">
+                            <div className="portfolio__item-image">
+                              
+                            </div>
+                            <h4>HotelRoom.sol</h4>
+                            <div className="portfolio__item-cta">
+                              <a href="https://github.com/aidnii/ERC20" className='btn'>Github</a>
+                              {/* <a href="https://github.com/aidnii" className='btn btn-primary'>Contract</a> */}
+                            </div>
                         </article>
                         {/* <article className="portfolio__item">
                           <div className="portfolio__item-image">
