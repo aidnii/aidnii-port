@@ -120,7 +120,9 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                     <Row>
-                      <article className="portfolio__item">
+                        
+                        <div className="container portfolio__container">
+                          <article className="portfolio__item">
                             <div className="portfolio__item-image">
                               <img src={projImg3} alt=""></img>
                             </div>
@@ -130,7 +132,11 @@ export const Projects = () => {
                               <a href="https://krypticlady.netlify.app/" className='btn btn-primary'>Demo</a>
                             </div>
                           </article>
+                          
+                        
+                        </div>
                       </Row>
+                  
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
