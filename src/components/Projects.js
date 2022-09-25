@@ -119,16 +119,18 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                    <article className="portfolio__item">
-                          <div className="portfolio__item-image">
-                            <img src={projImg3} alt=""></img>
-                          </div>
-                          <h4>My Portfolio</h4>
-                          <div className="portfolio__item-cta">
-                            <a href="https://github.com/aidnii/aidnii-port" className='btn'>Github</a>
-                            <a href="https://krypticlady.netlify.app/" className='btn btn-primary'>Demo</a>
-                          </div>
-                        </article>
+                    <Row>
+                      <article className="portfolio__item">
+                            <div className="portfolio__item-image">
+                              <img src={projImg3} alt=""></img>
+                            </div>
+                            <h4>My Portfolio</h4>
+                            <div className="portfolio__item-cta">
+                              <a href="https://github.com/aidnii/aidnii-port" className='btn'>Github</a>
+                              <a href="https://krypticlady.netlify.app/" className='btn btn-primary'>Demo</a>
+                            </div>
+                          </article>
+                      </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
