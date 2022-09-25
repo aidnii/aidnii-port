@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
-//import projImg3 from "../assets/img/project-img3.png";
+import projImg3 from "../assets/img/project-img3.png";
 //import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -28,7 +28,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">smart contracts</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">DAOs</Nav.Link>
+                      <Nav.Link eventKey="third">websites</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -119,7 +119,16 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>coming soon!</p>
+                    <article className="portfolio__item">
+                          <div className="portfolio__item-image">
+                            <img src={projImg3} alt=""></img>
+                          </div>
+                          <h4>My Portfolio</h4>
+                          <div className="portfolio__item-cta">
+                            <a href="https://github.com/aidnii/aidnii-port" className='btn'>Github</a>
+                            <a href="https://krypticlady.netlify.app/" className='btn btn-primary'>Demo</a>
+                          </div>
+                        </article>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
