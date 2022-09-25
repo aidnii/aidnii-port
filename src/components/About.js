@@ -17,7 +17,7 @@ export const About = () => {
                         My background is in Mechanical Engineering with over 5 years of experience. However, I decided to go full-time into Blockchain and 
                         Crypto back in 2019. I'm also a Crypto enthusiast! 
                     </p>
-                    <a href="https://calendly.com/krypticlady/30min" className='btn' >let's collab!</a>
+                    <a href="https://calendly.com/krypticlady/intro" className='btn' >let's collab!</a>
                 </div>
             </div>
         </section>

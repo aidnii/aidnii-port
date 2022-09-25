@@ -52,7 +52,7 @@ export const NavBar = () => {
                     <a href="https://www.github.com/aidnii"><img src={navIcon3} alt="" /></a>
                     <a href="mailto:krypticlady.dev@gmail.com"><img src={navIcon4} alt="" /></a>
                 </div>
-                <a href="https://calendly.com/krypticlady/30min" className="btn">let's collab!</a>
+                <a href="https://calendly.com/krypticlady/intro" className="btn">let's chat!</a>
               </span>
             </Navbar.Collapse>
           </Container>
