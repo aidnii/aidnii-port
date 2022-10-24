@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 //import { ArrowRightCircle } from 'react-bootstrap-icons';
-import headerImg from "../assets/img/header-img-gray.svg";
+import headerImg from "../assets/img/header-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 //import { isVisible } from "@testing-library/user-event/dist/utils";
